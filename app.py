@@ -18,7 +18,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # 2. CONFIG
 
 # In case we reach the daily query limit on my account, we could switch to someone else's
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDT1pk-M3Ujvm_-8Xzy-auwEM2WBJbCw9Y"  # Note: don't commit this file with the API KEY in here, apparently bots crawl thru git to find vulnerable API keys to exploit.
+os.environ["GOOGLE_API_KEY"] = ""  # Note: don't commit this file with the API KEY in here, apparently bots crawl thru git to find vulnerable API keys to exploit.
 
 st.set_page_config(page_title="DPDP Compliance Bot")
 
